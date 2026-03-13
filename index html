@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TradeBridge Logistics</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#071425;
+color:white;
+}
+
+/* NAVBAR */
+
+.navbar{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:rgba(0,0,0,.6);
+backdrop-filter:blur(8px);
+z-index:1000;
+}
+
+.logo img{
+height:70px;
+}
+
+.nav-links a{
+margin:0 15px;
+color:white;
+text-decoration:none;
+font-weight:600;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#ffd166;
+}
+
+.quote-btn{
+background:#ffd166;
+color:black;
+padding:10px 18px;
+border-radius:6px;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+background:url("https://images.unsplash.com/photo-1601582585289-52a3e2c92c6c")
+center/cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:60px;
+max-width:900px;
+}
+
+.hero p{
+font-size:22px;
+margin-top:10px;
+opacity:.9;
+}
+
+.hero-buttons{
+margin-top:30px;
+}
+
+.hero-buttons a{
+margin:10px;
+padding:16px 28px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.primary{
+background:#ffd166;
+color:black;
+}
+
+.secondary{
+border:2px solid #ffd166;
+color:#ffd166;
+}
+
+.hero-buttons a:hover{
+transform:translateY(-4px);
+}
+
+/* SERVICES */
+
+.section{
+padding:100px 40px;
+text-align:center;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.card{
+background:#0f223b;
+padding:40px;
+border-radius:14px;
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+background:#132d4f;
+}
+
+.card i{
+font-size:40px;
+color:#ffd166;
+margin-bottom:15px;
+}
+
+/* HOW IT WORKS */
+
+.steps{
+max-width:800px;
+margin:auto;
+text-align:left;
+}
+
+.steps li{
+margin:15px 0;
+font-size:18px;
+}
+
+/* CTA */
+
+.cta{
+background:#ffd166;
+color:black;
+padding:80px 20px;
+}
+
+.cta a{
+background:black;
+color:white;
+padding:16px 28px;
+border-radius:6px;
+text-decoration:none;
+}
+
+/* FOOTER */
+
+footer{
+background:#030a16;
+padding:40px;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+<div class="logo">
+<img src="images/logo.png">
+</div>
+
+<div class="nav-links">
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Industries</a>
+<a href="#">How It Works</a>
+<a href="#">FAQ</a>
+
+<a class="quote-btn" href="#">Request Quote</a>
+
+</div>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Bahamas Logistics Coordination You Can Trust</h1>
+
+<p>Customs Clearance • Freight Forwarding • Delivery • Procurement</p>
+
+<div class="hero-buttons">
+
+<a class="primary" href="#">Request a Quote</a>
+
+<a class="secondary" href="#">Explore Services</a>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>Our Services</h2>
+
+<div class="grid">
+
+<div class="card">
+<i class="fa-solid fa-file-contract"></i>
+<h3>Customs Clearance</h3>
+<p>Professional coordination with Bahamas customs authorities.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-ship"></i>
+<h3>Freight Forwarding</h3>
+<p>Air and ocean freight handling Miami to Nassau.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-truck"></i>
+<h3>Last Mile Delivery</h3>
+<p>Delivery from port or warehouse to final destination.</p>
+</div>
+
+<div class="card">
+<i class="fa-solid fa-warehouse"></i>
+<h3>Handling & Storage</h3>
+<p>Receiving, sorting, repacking and temporary holding.</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section class="section">
+
+<h2>How It Works</h2>
+
+<ol class="steps">
+
+<li>Submit shipment details</li>
+<li>We review documents and requirements</li>
+<li>Freight & customs coordination begins</li>
+<li>Shipment arrives and is processed</li>
+<li>Delivery or collection</li>
+
+</ol>
+
+</section>
+
+
+<section class="cta">
+
+<h2>Need Help Moving Cargo?</h2>
+
+<a href="#">Request Quote</a>
+
+</section>
+
+
+<footer>
+
+<p>TradeBridge Logistics</p>
+<p>#5 7th Street, Coconut Grove, Nassau, Bahamas</p>
+
+</footer>
+
+</body>
+
+</html>
