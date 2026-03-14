@@ -1,0 +1,53 @@
+.center-page{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#071425;
+}
+
+.auth-box, .quote-box{
+background:#0f223b;
+padding:40px;
+border-radius:12px;
+width:350px;
+}
+
+.auth-box input,
+.quote-box input,
+.quote-box textarea{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:6px;
+}
+
+.auth-box button,
+.quote-box button{
+width:100%;
+padding:14px;
+background:#ffd166;
+border:none;
+font-weight:bold;
+border-radius:6px;
+}
+
+.dashboard{
+padding:60px;
+}
+
+.suite-box,
+.shipment-box{
+background:#0f223b;
+padding:30px;
+margin-bottom:20px;
+border-radius:12px;
+}
+
+.dashboard-nav{
+background:black;
+padding:20px;
+display:flex;
+justify-content:space-between;
+}
